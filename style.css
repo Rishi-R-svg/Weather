@@ -152,8 +152,36 @@ body {
 @media (width<520px) {
     .details {
         padding: 0;
+      
+       
+    }
+}
+
+
+
+@media (width < 477px) {
+    .col img {
+        width: 40px;
+        margin-bottom: 15px;
+    }
+
+    .humidity, .Wind {
+        font-size: 30px;
+    }
+
+    .col {
         flex-direction: column;
-        gap: 2rem;
+    }
+}
+
+
+@media (width<331px) {
+    .humidity, .Wind {
+       font-size: 22px;
+    }
+
+    .details {
+        justify-content: space-evenly;
     }
 }
 
