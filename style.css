@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+   background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(255, 112, 112),rgb(122, 122, 250) );
+    border-radius: 25px;
+    margin: 100px auto 0px;
+    padding: 40px 35px;
+}
+
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.search input {
+    border: none;
+    background-color: #ebfffc;
+    color: black;
+    border-radius: 20px;
+    height: 50px;
+    outline: none;
+    padding: 10px 15px;
+    flex: 1;
+    margin-right: 15px;
+    font-size: 15 px;
+
+}
+
+
+.search button {
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+}
+
+
+.search button img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+   
+    /* mask-image: linear-gradient(#fff, #fff);
+    mask-mode: luminance;
+    mask-repeat: no-repeat; */
+
+    mix-blend-mode: multiply;
+ 
+     
+} 
+
+
+.content {
+    color: white;
+    display: none;
+}
+
+ .content img {
+   mix-blend-mode: multiply;
+   
+   width: 200px;
+}
+
+
+
+.icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+
+.content h1 {
+    font-size: 80px;
+    font-weight: 500;
+    color: white;
+}
+
+.content h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+    color: white;
+}
+
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0  20px;
+    margin-top: 60px;
+   
+
+}
+
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    
+}
+
+.col img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+
+.humidity, .Wind {
+    font-size: 30px;
+    margin-top: -6px;
+}
+
+
+.error {
+    text-align: left;
+    font-weight: 400;
+    margin-left: 15px;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+    position: relative;
+    display: none;
+}
+
+
+
+
+
